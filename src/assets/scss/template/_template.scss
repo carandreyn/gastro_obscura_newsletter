@@ -1,0 +1,339 @@
+// These are the styles to make some of the templates look extra nice.
+// Feel free to remove these styles for production!
+
+// Body Styles 
+body,
+html, 
+.body {
+  background: #f4f5f3 !important;
+  background-color: #f4f5f3 !important;
+}
+
+.header-container {
+  background: #f4f5f3 !important;
+  background-color: #f4f5f3 !important;
+  .view-in-browser {
+    margin-top: 30px !important;
+    margin-bottom: 30px !important;
+    .columns {
+      span {
+        color: #808080;
+        font-size: 11px !important;
+        font-family: "Helvetica Neue","Helvetica",'Arial',sans-serif !important;
+      }
+
+      a {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  .header-top {
+    margin-bottom: -10px;
+    display: flex;
+    .logo {
+      width: 303px;
+      height: auto;
+    }
+  }
+}
+
+.header-article {
+  margin-top: 20px !important;
+  margin-bottom: 25px !important;
+  border-bottom: 5px solid #ffd500;
+  .title {
+    margin-top: 15px !important;
+    a {
+      text-align: center;
+      font-family: 'HelveticaNeue-Bold','HelveticaNeue','Helvetica','Century Gothic','CenturyGothic','Arial',sans-serif;
+      color: #333;
+      display: block;
+      font-weight: bold;
+      line-height: 1em;
+      font-size: 36px;
+      letter-spacing: 0;
+      margin-bottom: 17px;
+    }
+  }
+
+  .p-info {
+    
+    p {
+      padding-left: 20px !important;
+      padding-right: 20px !important;
+      text-decoration: none;
+      color: #333 !important;
+      font-family: 'Times New Roman', Times, serif !important;
+      font-size: 19px !important;
+      line-height: 21px !important;
+      text-align: left !important;
+      letter-spacing: 0;
+      hyphens: none;
+    }
+  }
+
+  .read-more {
+    margin-top: 10px !important;
+    margin-bottom: 30px !important;
+    .columns {
+      a {
+        font-family: 'HelveticaNeue-Bold','HelveticaNeue','Helvetica','Century Gothic','CenturyGothic','Arial',sans-serif;
+        color: #333;
+        border-bottom: 3px solid #ffd500;
+        border-top: 3px solid transparent;
+        display: inline-block;
+        font-size: 14px;
+        text-transform: uppercase;
+        line-height: 14px;
+        letter-spacing: .02em;
+        padding-bottom: 3px;
+        margin-left: 20px !important;
+
+        &:hover {
+          cursor: pointer;
+          background: #ffd500 !important;
+          background-color: #ffd500 !important;
+        }
+      }
+    }
+  }
+}
+
+.article {
+  margin-top: 1px !important;
+
+  img {
+    margin-top: 30px !important;
+    max-width: 411px;
+    max-height: 232px;
+  }
+  .title {
+    margin-top: 15px !important;
+    a {
+      text-align: center;
+      font-family: 'HelveticaNeue-Bold','HelveticaNeue','Helvetica','Century Gothic','CenturyGothic','Arial',sans-serif;
+      color: #333;
+      display: block;
+      font-weight: bold;
+      line-height: 1em;
+      font-size: 36px;
+      letter-spacing: 0;
+      margin-bottom: 17px;
+    }
+  }
+
+  .p-info {
+    
+    p {
+      padding-left: 20px !important;
+      padding-right: 15px !important;
+      text-decoration: none;
+      color: #333 !important;
+      font-family: 'Times New Roman', Times, serif !important;
+      font-size: 19px !important;
+      line-height: 21px !important;
+      text-align: left !important;
+      letter-spacing: 0;
+      hyphens: none;
+    }
+  }
+
+  .read-more {
+    margin-top: 10px !important;
+    margin-bottom: 30px !important;
+    .columns {
+      a {
+        font-family: 'HelveticaNeue-Bold','HelveticaNeue','Helvetica','Century Gothic','CenturyGothic','Arial',sans-serif;
+        color: #333;
+        border-bottom: 3px solid #ffd500;
+        border-top: 3px solid transparent;
+        display: inline-block;
+        font-size: 14px;
+        text-transform: uppercase;
+        line-height: 14px;
+        letter-spacing: .02em;
+        padding-bottom: 3px;
+        margin-left: 20px !important;
+
+        &:hover {
+          cursor: pointer;
+          background: #ffd500 !important;
+          background-color: #ffd500 !important;
+        }
+      }
+    }
+  }
+}
+
+.article-style-two {
+  margin-top: 2px !important;
+
+  img {
+    margin-top: 30px !important;
+    max-width: 411px;
+    max-height: 232px;
+  }
+
+  .title {
+    margin-top: 15px !important;
+    a {
+      text-align: center;
+      font-family: 'HelveticaNeue-Bold','HelveticaNeue','Helvetica','Century Gothic','CenturyGothic','Arial',sans-serif;
+      color: #333;
+      display: block;
+      font-weight: bold;
+      line-height: 1em;
+      font-size: 36px;
+      letter-spacing: 0;
+      margin-bottom: 17px;
+    }
+  }
+
+  .p-info {
+    
+    p {
+      padding-left: 20px !important;
+      padding-right: 15px !important;
+      text-decoration: none;
+      color: #333 !important;
+      font-family: 'Times New Roman', Times, serif !important;
+      font-size: 19px !important;
+      line-height: 21px !important;
+      text-align: left !important;
+      letter-spacing: 0;
+      hyphens: none;
+    }
+  }
+
+  .read-more {
+    margin-top: 10px !important;
+    margin-bottom: 30px !important;
+    .columns {
+      a {
+        font-family: 'HelveticaNeue-Bold','HelveticaNeue','Helvetica','Century Gothic','CenturyGothic','Arial',sans-serif;
+        color: #333;
+        border-bottom: 3px solid #ffd500;
+        border-top: 3px solid transparent;
+        display: inline-block;
+        font-size: 14px;
+        text-transform: uppercase;
+        line-height: 14px;
+        letter-spacing: .02em;
+        padding-bottom: 3px;
+        margin-left: 20px !important;
+
+        &:hover {
+          cursor: pointer;
+          background: #ffd500 !important;
+          background-color: #ffd500 !important;
+        }
+      }
+    }
+  }
+}
+
+.footer-top {
+  margin-top: 25px !important;
+  .speaker-image {
+    .columns {
+      img {
+        width: 42px;
+        margin-top: 30px !important;
+      }
+    }
+  }
+
+  .spread-the-word {
+    .columns {
+      img {
+        margin-top: 10px;
+        height: 24px;
+        width: auto;
+      }
+    }
+  }
+
+  .share {
+    margin-top: 5px !important;
+    margin-bottom: 25px !important;
+    .columns {
+      span {
+        text-transform: uppercase;
+        font-family: 'HelveticaNeue-Bold','HelveticaNeue','Helvetica','Century Gothic','CenturyGothic','Arial',sans-serif;
+        display: inline-block;
+        text-align: center;
+        color: #333;
+        font-size: 14px;
+        text-transform: uppercase;
+        line-height: 22px;
+        letter-spacing: .02em;
+        text-decoration: none;
+        color: #333;
+        border-bottom: 2px solid #ffd500;
+        border-top: 2px solid transparent;
+
+        &:hover {
+          cursor: pointer;
+          background: #ffd500 !important;
+          background-color: #ffd500 !important;
+        }
+      }
+    }
+  }
+}
+
+.footer-middle {
+  margin-top: 1px !important;
+  border-bottom: 5px solid #ffd500;
+  .footer-motto {
+    margin-left: 10px;
+    margin-top: 25px !important;
+    width: 404px;
+  }
+  .footer-links {
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+    .columns {
+      img {
+        padding-right: 7px;
+        display: inline-block;
+        height: 20px;
+        margin-bottom: 15px !important;
+      }
+    }
+  }
+}
+
+.footer-bottom {
+  padding-right: 10px !important;
+  margin-top: 10px !important;
+  background: #f4f5f3 !important;
+  background-color: #f4f5f3 !important;
+  .columns {
+    display: inline-block;
+    a {
+      text-decoration: underline;
+      color: #bd8049 !important;
+      font-size: 10px !important;
+      letter-spacing: .78px;
+      line-height: 15px;
+      font-weight: normal;
+      text-align: center;
+      font-family: "Helvetica Neue","Helvetica",'Arial',sans-serif,'normal','Droid Sans','Roboto' !important;
+    }
+  }
+
+  .address {
+    margin-top: 10px !important;
+    .columns {
+      span {
+        color: #555555 !important;
+        font-size: 11px !important;
+        letter-spacing: .27px !important;
+        line-height: 19px !important;
+        font-family: "Helvetica Neue","Helvetica",'Arial',sans-serif,'normal','Droid Sans','Roboto' !important;
+      }
+    }
+  }
+}

@@ -1,0 +1,193 @@
+---
+layout: index-layout
+subject: My Email Templates
+---
+
+<container class="header-container" style="width: 475px;">
+  <row class="view-in-browser">
+    <columns> 
+      <center>
+        <span>Email not displaying correctly? <a>View in your browser</a>.</span>
+      </center>
+    </columns>
+  </row>
+  <row class="header-top">
+    <columns small="12" large="12">
+      <a href="https://www.atlasobscura.com/gastro">
+        <center>
+          <img class="logo" src="https://i.imgur.com/bNJlPUW.png" alt="logo">
+        </center>
+      </a>
+    </columns>
+  </row>
+</container>
+
+<container class="header-article">
+  <row>
+    <a href="https://www.atlasobscura.com/articles/kiddie-pools-kimchi-kimjang-south-korea-family-cabbage">
+      <img src="https://i.imgur.com/JFEtlnC.jpg" alt="header-image">
+    </a>
+  </row>
+  <row class="title">
+    <columns>
+      <a href="https://www.atlasobscura.com/articles/kiddie-pools-kimchi-kimjang-south-korea-family-cabbage">Kimchi Craftsmanship</a>
+    </columns>
+  </row>
+  <row class="p-info">
+    <columns>
+      <p>Many Korean families set aside a weekend in late fall for <i>kimjang</i>, a UNESCO Intangible World Heritage Treasure practice, in which <i>pogi kimchi</i> is made in homes across the country.</p>
+    </columns>
+  </row>
+  <row class="read-more">
+    <columns>
+      <a href="https://www.atlasobscura.com/articles/kiddie-pools-kimchi-kimjang-south-korea-family-cabbage">Read More</a>
+    </columns>
+  </row>
+</container>
+
+<container class="article">
+  <row>
+    <columns>
+      <a href="https://www.atlasobscura.com/articles/michelangelo-shopping-list-sketch">
+        <center>
+          <img src="https://i.imgur.com/ZsFOoRD.jpg" alt="article image">
+        </center>
+      </a>
+    </columns>
+  </row>
+  <row class="title">
+    <columns>
+      <a href="https://www.atlasobscura.com/articles/michelangelo-shopping-list-sketch">Michaelangelo's Shopping List</a>
+    </columns>
+  </row>
+  <row class="p-info">
+    <columns>
+      <p>The 500-year-old list is proof that genius thrives on a diet of fish and bread. And oodles of wine.</p>
+    </columns>
+  </row>
+  <row class="read-more">
+    <columns>
+      <a href="https://www.atlasobscura.com/articles/michelangelo-shopping-list-sketch">Read More</a>
+    </columns>
+  </row>
+</container>
+
+{{#each articles.article}}
+<container class="article-style-two">
+  <row>
+    <columns>
+      <a href="{{this.link}}">
+        <center>
+          <img src="{{this.image_url}}" alt="article image">
+        </center>
+      </a>
+    </columns>
+  </row>
+  <row class="title">
+    <columns>
+      <a href="{{this.link}}">{{this.title}}</a>
+    </columns>
+  </row>
+  <row class="p-info">
+    <columns>
+      <p>{{this.paragraph}}</p>
+    </columns>
+  </row>
+  <row class="read-more">
+    <columns>
+      <a href="{{this.link}}">Read More</a>
+    </columns>
+  </row>
+</container>
+{{/each}}
+
+<container class="footer-top">
+  <row class="speaker-image">
+    <columns small="12" large="12">
+      <a href="https://www.atlasobscura.com/join?cause=p_add&next=%2Fplaces%2Fnew">
+        <center>
+          <img src="https://i.imgur.com/jMsst7S.png" alt="speakerphone">
+        </center>
+      </a>
+    </columns>
+  </row>
+  <row class="spread-the-word">
+    <columns small="12" large="12">
+      <center>
+        <img src="https://i.imgur.com/sIM5Vey.png" alt="spread the word">
+      </center>
+    </columns>
+  </row>
+  <row class="share">
+    <columns small="12" large="12">
+      <center>
+        <span class="share-email">Share this email with a friend</span>
+      </center>
+    </columns>
+  </row>
+</container>
+<container class="footer-middle">
+  <row class="footer-motto">
+    <columns>
+      <a href="https://www.atlasobscura.com/gastro">
+        <center>
+          <img src="https://i.imgur.com/eMpe5PA.png" alt="definitive guide to world's most intriguing food and drink">
+        </center>
+      </a>
+    </columns>
+  </row>
+  <row class="footer-links">
+    <columns small="12" large="12">
+      <center>
+        <a href="https://www.facebook.com/atlasobscura/">
+          <img src="https://i.imgur.com/z8UnKbm.png" alt="facebook">
+        </a>
+        <a href="https://www.youtube.com/user/atlasobscura">
+          <img src="https://i.imgur.com/MTRM4v1.png" alt="youtube">
+        </a>
+        <a href="https://twitter.com/atlasobscura">
+          <img src="https://i.imgur.com/tfmxS5W.png" alt="twitter">
+        </a>
+        <a href="https://www.instagram.com/atlasobscura/">
+          <img src="https://i.imgur.com/o77BpRN.png" alt="instagram">
+        </a>
+        <a href="https://www.pinterest.com/atlasobscura/_created/">
+          <img src="https://i.imgur.com/i7x8VYY.png" alt="pinterest">
+        </a>
+      </center>
+    </columns>
+  </row>
+</container>
+
+<container class="footer-bottom">
+  <row>
+    <columns small="3" large="3">
+      <center>
+        <a href="https://www.atlasobscura.com/">AtlasObscura.com</a>
+      </center>
+    </columns>
+    <columns small="3" large="3">
+      <center>
+        <a href="#">View in Browser</a>
+      </center>
+    </columns>
+    <columns small="3" large="3">
+      <center>
+      <a href="https://atlasobscura.us1.list-manage.com/unsubscribe/post">Unsubscribe</a>
+      </center>
+    </columns>
+    <columns small="3" large="3">
+      <center>
+        <a href="https://www.atlasobscura.com/newsletters">See All Newsletters</a>
+      </center>
+    </columns>
+  </row>
+  <row class="address">
+    <columns>
+      <center>
+        <span>61 Greenpoint Ave #622, Brooklyn, NY 11222</span>
+      </center>
+    </columns>
+  </row>
+</container>
+

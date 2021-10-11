@@ -1,0 +1,22 @@
+{
+    "article": [
+        {
+            "title": "Space Sustenance",
+            "image_url": "https://i.imgur.com/ieq2yut.jpg",
+            "paragraph": "Astronauts can chew and swallow in space the way we do on Earth. During the early Mercury missions, it wasn’t clear if they could normally.",
+            "link": "https://www.atlasobscura.com/articles/nasa-space-food-chew-swallow"
+        },
+        {
+            "title": "An Inedible Feast",
+            "image_url": "https://i.imgur.com/ncyExpD.jpg",
+            "paragraph": "Shilpa Mitha crafts fabulous chutneys, dosas, and burgers. The only thing is, they're made of clay.",
+            "link": "https://www.atlasobscura.com/articles/artist-miniature-indian-food-shilpa-mitha"
+        },
+        {
+            "title": "Pique a lo Macho",
+            "image_url": "https://i.imgur.com/KH25mtf.jpg",
+            "paragraph": "Only the strong-stomached can finish this Bolivian mega-plate of hot peppers, potatoes, and meat.",
+            "link": "https://www.atlasobscura.com/foods/pique-a-lo-macho-bolivia"
+        }
+    ]
+}
